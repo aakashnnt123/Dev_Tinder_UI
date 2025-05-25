@@ -21,3 +21,9 @@
 -Create a Footer
 
 -Create Login Page.
+
+-Install axios
+
+-CORS -install cors in backend=> add middleware to with configuration : origin :"frontend URL",credentials : true
+
+-Whenever you are making a API call so pass axios =>{ withCredientials : true}

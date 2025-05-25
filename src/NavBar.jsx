@@ -2,7 +2,7 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <div className="navbar bg-black text-primary-content shadow-md px-6">
+    <div className="navbar bg-black text-primary-content shadow-md px-6 fixed top-0 z-30">
       <div className="flex-1 flex  items-center gap-4">
         <a className="text-2xl flex items-center gap-2">
           <img
