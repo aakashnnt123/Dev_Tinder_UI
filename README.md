@@ -27,3 +27,12 @@
 -CORS -install cors in backend=> add middleware to with configuration : origin :"frontend URL",credentials : true
 
 -Whenever you are making a API call so pass axios =>{ withCredientials : true}
+
+-Install Redux Toolkit.
+
+-Set up redux Store , Attached To App.jsx , create Slice
+
+-Login And Verify Data in Store And Redirect To Feed..
+
+-
+
