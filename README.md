@@ -34,5 +34,13 @@
 
 -Login And Verify Data in Store And Redirect To Feed..
 
--
+-Navbar should update as soon as user logs in
+
+-Refector our code to add constants file+create a components folder
+
+-you should not be access other route without login 
+
+-If token is not present redirect user to login page
+
+-Build Logout Feature
 
