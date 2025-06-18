@@ -1,11 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit";
 import userReducer from "../Utils/UserSlice";
+import feedReducer from "../Utils/feedSlice"
 import { combineReducers } from 'redux';
 import { persistStore, persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 
 const rootReducer = combineReducers({
   user: userReducer,
+  feed : feedReducer,
 });
 
 const persistConfig = {

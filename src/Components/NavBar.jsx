@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { Base_Url } from "../../Utils/Constants";
 import { removeUser } from "../../Utils/UserSlice";
+import {removeFeed} from "../../Utils/feedSlice";
 
 const NavBar = () => {
   const user = useSelector((store) => store.user);
@@ -23,6 +24,7 @@ const handleLogout = async () => {
     );
     localStorage.clear();
     navigate("/login");
+    dispatch(removeFeed());
     dispatch(removeUser());
   } catch (error) {
     console.error("Logout failed:", error);
