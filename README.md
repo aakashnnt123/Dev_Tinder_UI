@@ -44,5 +44,9 @@
 
 -Build Logout Feature
 
--Get Feed and Build  User Card on Feed
+-Get Feed and Build User Card on Feed
+
+-Edit/View Profile Feature
+
+-Show Toast Message on save pf profile
 
